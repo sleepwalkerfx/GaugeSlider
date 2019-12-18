@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.author       = "Edgar Žigis"
 
   spec.platform     = :ios
-  spec.ios.deployment_target = '11.0'
+  spec.ios.deployment_target = '8.0'
   spec.swift_version = '5.0'
   
   spec.source       = { :git => "https://github.com/edgar-zigis/GaugeSlider.git", :tag => "#{spec.version}" }
